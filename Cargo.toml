@@ -1,0 +1,13 @@
+[package]
+edition = "2018"
+name = "freeswitch_ui"
+version = "0.1.0"
+[dependencies]
+cursive_table_view = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+
+[dependencies.quick-xml]
+features = ["serialize"]
+version = "*"
